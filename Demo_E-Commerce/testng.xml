@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NopCommerce">
+<parameter name="browser" value="Chrome"></parameter>
+	<test name="Regression testing">
+		<classes>
+			<class name="tests.SearchProductTest_testcase1" />
+			<class name="tests.SearchProductusingAutoSuggest_testcase2" />
+		</classes>
+	</test>
+</suite> 

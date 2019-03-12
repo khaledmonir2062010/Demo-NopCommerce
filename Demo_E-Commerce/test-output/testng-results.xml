@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NopCommerce" duration-ms="8843" started-at="2019-03-11T23:02:36Z" finished-at="2019-03-11T23:02:45Z">
+    <groups>
+    </groups>
+    <test name="Regression testing" duration-ms="8843" started-at="2019-03-11T23:02:36Z" finished-at="2019-03-11T23:02:45Z">
+      <class name="tests.SearchProductusingAutoSuggest_testcase2">
+        <test-method status="PASS" signature="UserCanSearchWithAutoComplete()[pri:1, instance:tests.SearchProductusingAutoSuggest_testcase2@1794d431]" name="UserCanSearchWithAutoComplete" duration-ms="2429" started-at="2019-03-11T23:02:42Z" finished-at="2019-03-11T23:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchWithAutoComplete -->
+        <test-method status="PASS" signature="screenshotOnFail(org.testng.ITestResult)[pri:0, instance:tests.SearchProductusingAutoSuggest_testcase2@1794d431]" name="screenshotOnFail" is-config="true" duration-ms="1" started-at="2019-03-11T23:02:45Z" finished-at="2019-03-11T23:02:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSearchWithAutoComplete status=SUCCESS method=SearchProductusingAutoSuggest_testcase2.UserCanSearchWithAutoComplete()[pri:1, instance:tests.SearchProductusingAutoSuggest_testcase2@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFail -->
+      </class> <!-- tests.SearchProductusingAutoSuggest_testcase2 -->
+      <class name="tests.SearchProductTest_testcase1">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:tests.SearchProductTest_testcase1@39c0f4a]" name="Setup" is-config="true" duration-ms="8523" started-at="2019-03-11T23:02:27Z" finished-at="2019-03-11T23:02:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="UserCanSearchForProducts(java.lang.String)[pri:0, instance:tests.SearchProductTest_testcase1@39c0f4a]" name="UserCanSearchForProducts" duration-ms="5284" started-at="2019-03-11T23:02:37Z" data-provider="ExcelData" finished-at="2019-03-11T23:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple MacBook Pro 13-inch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchForProducts -->
+        <test-method status="PASS" signature="screenshotOnFail(org.testng.ITestResult)[pri:0, instance:tests.SearchProductTest_testcase1@39c0f4a]" name="screenshotOnFail" is-config="true" duration-ms="2" started-at="2019-03-11T23:02:42Z" finished-at="2019-03-11T23:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSearchForProducts status=SUCCESS method=SearchProductTest_testcase1.UserCanSearchForProducts(java.lang.String)[pri:0, instance:tests.SearchProductTest_testcase1@39c0f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFail -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:tests.SearchProductTest_testcase1@39c0f4a]" name="closedriver" is-config="true" duration-ms="0" started-at="2019-03-11T23:02:45Z" finished-at="2019-03-11T23:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- tests.SearchProductTest_testcase1 -->
+    </test> <!-- Regression testing -->
+  </suite> <!-- NopCommerce -->
+</testng-results>
